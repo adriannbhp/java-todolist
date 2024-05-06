@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f3124d-8e7f-4359-b73b-f038d15d28ff" name="Changes" comment="commit : menambahkan for loop showTodoList(), testing testShowTodoList(), logic resize array testAddTodoList();">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AplikasiTodoListV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Todolist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TodoListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TodoListRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/TodoListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/TodoListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/service/TodoListServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/view/TodoListViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/TodoListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13f3124d-8e7f-4359-b73b-f038d15d28ff" name="Changes" comment="commit : implementasi OOP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AplikasiTodoListV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AplikasiTodoListV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Todolist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Todolist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/TodoListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/TodoListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/TodoListRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/TodoListRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/TodoListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/TodoListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/TodoListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/TodoListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/service/TodoListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/service/TodoListServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/view/TodoListViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/view/TodoListViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/InputUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TodoListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TodoListView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AplikasiTodoList.executor": "Run",
+    "Application.AplikasiTodoListV2.executor": "Run",
     "Application.TodoListServiceTest.executor": "Run",
     "Application.TodoListViewTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -63,7 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -137,7 +137,8 @@
       <workItem from="1713967264281" duration="2469000" />
       <workItem from="1714902249414" duration="2642000" />
       <workItem from="1714906890320" duration="8816000" />
-      <workItem from="1714958991462" duration="3569000" />
+      <workItem from="1714958991462" duration="3979000" />
+      <workItem from="1714990057946" duration="13971000" />
     </task>
     <task id="LOCAL-00001" summary="commit : menambahkan for loop showTodoList(), testing testShowTodoList()">
       <option name="closed" value="true" />
@@ -155,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713882139427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit : implementasi OOP">
+      <option name="closed" value="true" />
+      <created>1714962948436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714962948436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit : menambahkan for loop showTodoList(), testing testShowTodoList()" />
     <MESSAGE value="commit : menambahkan for loop showTodoList(), testing testShowTodoList(), logic resize array testAddTodoList();" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit : menambahkan for loop showTodoList(), testing testShowTodoList(), logic resize array testAddTodoList();" />
+    <MESSAGE value="commit : implementasi OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit : implementasi OOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,7 +190,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/view/TodoListViewTest.java</url>
-          <line>9</line>
+          <line>16</line>
           <properties class="test.view.TodoListViewTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -189,7 +199,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/service/TodoListServiceImpl.java</url>
-          <line>33</line>
+          <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
