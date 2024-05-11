@@ -6,7 +6,6 @@ import repository.TodoListRepositoryImpl;
 import service.TodoListService;
 import service.TodoListServiceImpl;
 
-// Mendefinisikan class TodoListServiceTest
 public class TodoListServiceTest {
 
     // Method utama untuk menjalankan pengujian

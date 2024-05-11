@@ -2,8 +2,6 @@ package service;
 
 import entity.Todolist;
 import repository.TodoListRepository;
-
-// Mendefinisikan class TodoListServiceImpl yang mengimplementasikan interface TodoList Service
 public class TodoListServiceImpl implements TodoListService {
 
     // Mendeklarasikan atribut untuk menyimpan repository Todolist

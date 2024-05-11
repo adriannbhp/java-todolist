@@ -1,6 +1,5 @@
 package entity;
 
-// Mendefinisikan class TodoList
 public class Todolist {
 
     // Mendeklarasikan atribut private bernama 'todo' yang bertipe String

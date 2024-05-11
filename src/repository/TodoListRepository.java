@@ -2,7 +2,6 @@ package repository;
 
 import entity.Todolist;
 
-// Mendefinisikan interface TodoListRepository
 public interface TodoListRepository {
 
     // Method untuk mendapatkan semua elemen TodoList dari repository

@@ -1,16 +1,11 @@
-// Mendefinisikan package 'test.view' di mana class TodoListViewTest berada
 package test.view;
 
-// Mengimpor class TodoListRepository dan TodoListRepositoryImpl dari package repository
 import repository.TodoListRepository;
 import repository.TodoListRepositoryImpl;
-// Mengimpor class TodoListService dan TodoListServiceImpl dari package servis
 import service.TodoListService;
 import service.TodoListServiceImpl;
-// Mengimpor class TodoListView dari package view
 import view.TodoListView;
 
-// Mendefinisikan class TodoListViewTest
 public class TodoListViewTest {
 
     // Method utama untuk menjalankan pengujian

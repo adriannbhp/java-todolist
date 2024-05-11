@@ -2,7 +2,6 @@ package repository;
 
 import entity.Todolist;
 
-// Mendefinisikan class TodoListRepositoryImpl yang mengimplementasikan interface TodoListRepository
 public class TodoListRepositoryImpl implements TodoListRepository {
 
     // Mendeklarasikan array data yang akan menyimpan object Todolist
